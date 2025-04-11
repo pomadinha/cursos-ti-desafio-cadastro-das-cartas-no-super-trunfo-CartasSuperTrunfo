@@ -47,8 +47,8 @@ int main(){
     scanf("%d", &pt2);
 
     densidade = populacao/area;
-    densidade2 = populacao2/area2;
     pcapita = pib/populacao;
+    densidade2 = populacao2/area2; 
     pcapita2 = pib2/populacao2;
 
     //parte em que as informações descritas serão exibidas
