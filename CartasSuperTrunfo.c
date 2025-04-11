@@ -55,7 +55,7 @@ int main(){
     printf("Estado: %s\n", estado);
     printf("Código: %s%s\n", estado, codigo); //os identificadores tem que ficar juntas pois os valores são juntos
     printf("Cidade: %s\n", cidade);
-    printf("População: %.2f\n", populacao);
+    printf("População: %d\n", populacao);
     printf("Área: %.2fkm²\n", area);
     printf("PIB: %.2f Bilhões de reais\n", pib);
     printf("Pontos Turísticos: %d\n", pt);
@@ -67,7 +67,7 @@ int main(){
     printf("Estado: %s\n", estado2);
     printf("Código: %s%s\n", estado2, codigo2); //os identificadores tem que ficar juntas pois os valores são juntos
     printf("Cidade: %s\n", cidade2);
-    printf("População: %.2f\n", populacao2);
+    printf("População: %d\n", populacao2);
     printf("Área: %.2fkm²\n", area2);
     printf("PIB: %.2f Bilhões de reais\n", pib2);
     printf("Pontos Turísticos: %d\n", pt2);
