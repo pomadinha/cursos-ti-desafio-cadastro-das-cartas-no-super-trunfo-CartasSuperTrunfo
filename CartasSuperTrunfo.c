@@ -13,7 +13,6 @@ int main(){
     float pcapita, pcapita2; //pib per capita 
     
     ////////////////////// CARTA 1 /////////////////////////////////////////
-
     printf("Escolha uma letra de A até H para representar o 1ª Carta: \n"); 
     scanf("%s", estado); //em strings não é necessário o uso de &
     printf("Informe um número de 01 a 04: \n"); 
@@ -30,7 +29,6 @@ int main(){
     scanf("%d", &pt);
     
     ////////////////////// CARTA 2 /////////////////////////////////////////
-    
     printf("Escolha uma letra de A até H para representar a 2ª Carta: \n"); 
     scanf("%s", estado2); //em strings não é necessário o uso de &
     printf("Informe um número de 01 a 04: \n"); 
@@ -47,32 +45,30 @@ int main(){
     scanf("%d", &pt2);
 
     densidade = populacao/area;
+    densidade2 = populacao2/area2;
     pcapita = pib/populacao;
-    densidade2 = populacao2/area2; 
     pcapita2 = pib2/populacao2;
 
     //parte em que as informações descritas serão exibidas
-    ////////////////////// CARTA A /////////////////////////////////////////
-
-    printf("Carta 1 \n");
+    /////////////////////////////// CARTA 1 /////////////////////////////////////////
+    printf("\nCarta 1 \n");
     printf("Estado: %s\n", estado);
     printf("Código: %s%s\n", estado, codigo); //os identificadores tem que ficar juntas pois os valores são juntos
     printf("Cidade: %s\n", cidade);
-    printf("População: %.2d\n", populacao);
-    printf("Área: %2.fkm²\n", area);
+    printf("População: %.2f\n", populacao);
+    printf("Área: %.2fkm²\n", area);
     printf("PIB: %.2f Bilhões de reais\n", pib);
     printf("Pontos Turísticos: %d\n", pt);
     printf("Densidade Populacional: %.2f hab/km²\n", densidade);
     printf("PIB per Capita: %.2f reais\n", pcapita);
     
-    ////////////////////// CARTA B /////////////////////////////////////////
-
+    /////////////////////////////// CARTA 2 /////////////////////////////////////////
     printf("\nCarta 2 \n");
     printf("Estado: %s\n", estado2);
     printf("Código: %s%s\n", estado2, codigo2); //os identificadores tem que ficar juntas pois os valores são juntos
     printf("Cidade: %s\n", cidade2);
-    printf("População: %.2d\n", populacao2);
-    printf("Área: %2.fkm²\n", area2);
+    printf("População: %.2f\n", populacao2);
+    printf("Área: %.2fkm²\n", area2);
     printf("PIB: %.2f Bilhões de reais\n", pib2);
     printf("Pontos Turísticos: %d\n", pt2);
     printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
