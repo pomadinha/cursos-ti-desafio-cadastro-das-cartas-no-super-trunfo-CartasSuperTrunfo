@@ -6,7 +6,7 @@ int main(){
     char cidade [15], cidade2 [15];
     unsigned long int populacao, populacao2;
     float area, area2, pib, pib2, densidade, densidade2, pcapita, pcapita2, superPoder1, superPoder2; //área do estado em km²
-    int pt, pt2, resultadoA, resultadoB, resultadoC, resultadoD, resultadoE, resultadoF, resultadoG;
+    int pt, pt2, resultadoB, resultadoC, resultadoD, resultadoE, resultadoF, resultadoG;
     
     ////////////////////// CARTA 1 /////////////////////////////////////////
     printf("Escolha uma letra de A até H para representar o 1ª Carta: \n"); 
