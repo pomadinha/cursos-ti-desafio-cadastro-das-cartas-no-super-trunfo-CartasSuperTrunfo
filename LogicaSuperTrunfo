@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
     
     char estado [2], estado2 [2]; //uma letra de A até H
